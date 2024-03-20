@@ -1,0 +1,19 @@
+{
+  "name": "course-work",
+  "version": "1.0.0",
+  "description": "course work TMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwetnyFirst/TMS_Front-End.git"
+  },
+  "author": "Twenty_First",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TwetnyFirst/TMS_Front-End/issues"
+  },
+  "homepage": "https://github.com/TwetnyFirst/TMS_Front-End#readme"
+}
