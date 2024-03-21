@@ -1,0 +1,19 @@
+.footer {
+    padding: 24px 0px;
+    background-color: rgba(44, 49, 84, 1);
+}
+.footer-wrap {
+    max-width: 370px;
+    margin: auto;
+}
+.footer-wrap__text {
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        color:rgba(128, 128, 128, 1);
+        text-transform: capitalize;
+        span{
+            color:#fff;
+        }
+    }
+}

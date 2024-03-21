@@ -1,0 +1,38 @@
+.contact {
+    padding: 71px 0px 67px;
+    background-color: rgba(53, 60, 101, 1);
+}
+
+.contact-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px -15px;
+    // align-items: center;
+}
+
+
+.contact-wrap__item {
+    width:370px;
+    margin: 0px 15px;
+}
+.contact-item__title {
+    font-size:$text-medium;
+    font-weight: 700;
+    margin-bottom: 29px;
+    text-align: center;
+    color: #fff;
+}
+.contact-item__text {
+    font-size:$text-medium;
+    font-weight:400;
+    text-align:center;
+    color:#fff;
+
+}
+.contact-item__socials {
+    text-align: center;
+}
+.fa-brands-contact {
+    margin: 0px 10px;
+}
+

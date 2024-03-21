@@ -25,10 +25,6 @@
     align-items: center;
     margin-bottom: 8.125rem;
     border-bottom:1px solid #fff;
-    @media(max-width:768px){
-        margin-bottom: 130px;
-    }
-
 }
 .header-head__logo {
     text-transform: uppercase;
@@ -72,9 +68,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media(max-width:768px){
-        padding: 0px 60px;
-    }
 }
 .header-main__title{
     font-size: $title-main;
