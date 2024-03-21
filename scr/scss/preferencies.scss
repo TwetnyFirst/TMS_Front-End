@@ -1,0 +1,35 @@
+.preferencies {
+    padding: 116px 0px;
+    
+}
+.preferencies-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 88px 31px;
+}
+.preferencies-wrap__item {
+    
+}
+.preferencies-item__img {
+    width: 76px;
+    height: 76px;
+    margin: 0px auto 60px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.preferencies-item__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: $title-card;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.preferencies-item__text {
+    text-align: center;
+    font-size: $text-medium;
+    font-weight: 400;
+}
