@@ -1,0 +1,105 @@
+.slogan {
+}
+.slogan-swiper {
+    height: 535px;
+    @media(max-width:1200px){
+        height: 332px;
+    }
+    @media(max-width:500px){
+        height: 570px;
+    }
+    
+}
+
+// .slogan-swiper__wrapper .slogan-wrapper__slide .slogan-slide__descriprion:nth-child(2) {
+//     background-color:red;
+// }
+.swiper-slide{
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @media(max-width:500px){
+        flex-direction: column;
+    }
+}
+.swiper-slide:nth-child(even){
+    .slogan-slide__descriprion{
+        background-color: bisque;
+    }
+}
+.slogan-slide__img{
+    width:50%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-position: center;
+        object-fit: cover;
+    }
+    @media(max-width:500px){
+        width:100%;
+        height:50%;
+    }
+}
+.slogan-slide__descriprion{
+    background-color: rgba(92, 50, 73, 1);
+    width:50%;
+    padding: 130px 110px;
+    h2{
+        color:#fff;
+        font-family: "Cardo", serif;
+        font-size:36px;
+        font-weight: 400;
+        font-style: italic;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+    }
+    span{
+        text-transform: uppercase;
+        color:#fff;
+        font-size:13px;
+        font-weight: 600;
+        text-align:center
+    }
+    @media(max-width:1200px){
+        padding: 50px 88px;
+        h2{
+            font-size:24px;
+            // margin-bottom: 15px;
+
+        }
+        span{
+            font-size:12px;
+        }
+    }
+    @media(max-width:500px){
+        width:100%;
+        padding: 30px 20px;
+        text-align:center;
+        span{
+            display: block;
+            margin-bottom: 50px;
+        }
+    }
+
+}
+.slogan-swiper__pagination::after {
+}
+.slogan-swiper__prev::after {
+    color:#fff;
+    @media(max-width:500px){
+        display: none;
+    }
+}
+.slogan-swiper__next::after {
+    color:#fff;
+    @media(max-width:500px){
+        display: none;
+    }
+
+}
+
+
+// .swiper-scrollbar {
+// }
+// .slogan-swiper__scrollbar {
+// }

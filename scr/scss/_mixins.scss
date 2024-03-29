@@ -22,4 +22,11 @@
         background-color: $light-red;
 
     }
+    @media(max-width:500px){
+        width:280px;
+        a{
+            padding: 20px 10px;
+
+        }
+    }
 }
