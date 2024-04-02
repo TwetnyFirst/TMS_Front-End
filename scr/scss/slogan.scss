@@ -82,7 +82,18 @@
     }
 
 }
-.slogan-swiper__pagination::after {
+.slogan-swiper__pagination{
+
+}
+.swiper-pagination-bullet{
+    background-color: #fff;
+    border:1px solid #000;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: rgba(92, 50, 73, 1);
+
+
 }
 .slogan-swiper__prev::after {
     color:#fff;

@@ -20,3 +20,15 @@ const swiper = new Swiper('.slogan-swiper', {
     //   el: '.swiper-scrollbar',
     // },
   });
+
+  const active = document.querySelector('.head-nav-wrap');
+  console.log(active);
+
+  document.querySelector('.header-head__burger').addEventListener('click', function(){
+    var headNav = document.querySelector('.head-nav-wrap');
+    if(headNav.classList.contains('active')){
+      headNav.classList.remove('active')
+    }else{
+      headNav.classList.add('active')
+    }
+  })
