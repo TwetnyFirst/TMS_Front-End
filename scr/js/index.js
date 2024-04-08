@@ -8,11 +8,15 @@ const swiper = new Swiper('.slogan-swiper', {
       el: '.slogan-swiper__pagination',
       clickable:true,
     },
-  
+    autoplay: {
+      delay: 2000, // время задержки между слайдами
+      disableOnInteraction: false, // слайды будут продолжать автоматически переключаться при нажатии на кнопки навигации
+  },
     // Navigation arrows
     navigation: {
       nextEl: '.slogan-swiper__next',
       prevEl: '.slogan-swiper__prev',
+      
     },
   
     // And if we need scrollbar

@@ -8,16 +8,9 @@
     @media(max-width:500px){
         height: 570px;
     }
-    
 }
-
-// .slogan-swiper__wrapper .slogan-wrapper__slide .slogan-slide__descriprion:nth-child(2) {
-//     background-color:red;
-// }
 .swiper-slide{
     display: flex;
-    // justify-content: center;
-    // align-items: center;
     @media(max-width:500px){
         flex-direction: column;
     }
@@ -89,10 +82,11 @@
     background-color: #fff;
     border:1px solid #000;
     opacity: 1;
+    width: 15px;
+    height: 15px;
 }
 .swiper-pagination-bullet-active{
     background-color: rgba(92, 50, 73, 1);
-
 
 }
 .slogan-swiper__prev::after {

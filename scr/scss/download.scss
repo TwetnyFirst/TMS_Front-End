@@ -1,5 +1,8 @@
 .download {
     padding: 114px 0px;
+    @media(max-width:500px){
+        padding: 45px 0px;
+    }
 }
 .download-wrap {
     display: flex;

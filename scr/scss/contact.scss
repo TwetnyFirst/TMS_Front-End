@@ -2,7 +2,7 @@
     padding: 71px 0px 67px;
     background-color: rgba(53, 60, 101, 1);
     @media(max-width:500px){
-        padding: 35px 0px ;
+        padding: 40px 0px ;
     }
 }
 
@@ -28,9 +28,12 @@
     width:370px;
     margin: 0px 15px;
     @media(max-width:500px){
-        margin: 40px 0px;
-        padding: 0px 30px;
+        margin: 0px 0px 70px 0px ;
+        padding: 0px 20px;
         width:320px;
+        &:last-child{
+            margin: 0px;
+        }
     }
 }
 .contact-item__title {
@@ -42,6 +45,7 @@
     color: #fff;
     @media(max-width:500px){
         margin-bottom: 40px;
+        font-size: 14px;
     }
 }
 .contact-item__text {
@@ -51,6 +55,11 @@
         font-size:$text-medium;
         font-weight:400;
         color:#fff;
+    }
+    @media(max-width:500px){
+        p{
+            font-size: 14px;
+        }
     }
 
 }
